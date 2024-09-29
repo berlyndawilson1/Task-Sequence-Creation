@@ -1,18 +1,17 @@
 # Task-Sequence-Creation
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+The task sequence outlined here serves to validate the capability of target machines to receive deployment images. These storage areas play a crucial role in ensuring the safety of user data throughout and following the deployment process.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Workbench Deployment</b> 
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows Server 2019</b>
 
 <h2>Program walk-through:</h2>
 
